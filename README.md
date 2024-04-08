@@ -1,4 +1,4 @@
-# AI and Machine Learning Alogrithms
+# AI and Machine Learning Algorithms
 
 ## Table of Contents:
 <p align="center">
