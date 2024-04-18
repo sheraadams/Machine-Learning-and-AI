@@ -231,8 +231,10 @@ In reinforcement learning, the epsilon represents the tendency to explore. It al
 This code demonstrates that the correct balance between exploration and exploitation is essential to the system’s ability to solve the problem. While a minimum amount of exploration is required to allow the pirate to move along the path even in the absence of rewards, the pirate is most influenced by Q-learning, or reinforcement and reward-seeking to “learn” to navigate. Reinforcement learning rewards the pirate for progressing through the maze toward the treasure while avoiding collision. The agent then “remembers”, and associates moves with reward or punishment Q-values and it progresses by maximizing rewards. In essence, the agent learns to avoid collisions that it has already encountered, progressing toward the treasure along the path associated with rewards.
 
 This code uses a deep Q-learning algorithm that trains the neural network to achieve the desired outcome. The pirate progresses through the maze as the Q-learning algorithm updates the neural network with expected reward values, or Q-values associated with states and actions as the agent traverses the maze. As the training is executed, the network grows, and the agent “learns” to maximize rewards and minimize punishments following a greedy epsilon algorithm. 
- 
-References
+
+ 
+**References**
+
 Du, Y., Kosoy, E., Dayan, A., Rufova, M., Abbeel, P., & Gopnik, A. (n.d.). What can AI learn from human exploration? Intrinsically-Motivated Humans and Agents in Open-World Exploration. In Open Review. https://openreview.net/pdf?id=UKb6aHxs1f
 
 Lindwurm, E. (2021, December 12). Intuition: Exploration vs Exploitation - Towards Data Science. Medium. https://towardsdatascience.com/intuition-exploration-vs-exploitation-c645a1d37c7a
